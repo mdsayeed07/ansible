@@ -1,0 +1,10 @@
+---
+
+- name: A test playbook for AWX
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Ping the connectivity
+      ping:
+
