@@ -6,6 +6,5 @@
 
   tasks:
     - name: Ping the connectivity
-      debug:
-        cmd: echo "Hello Ansible"
+      shell: echo "Hello Ansible"
 
